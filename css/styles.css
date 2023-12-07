@@ -7,7 +7,9 @@ html {
     }
 
 body {
+    width: 50%;
     margin: 0 3rem;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     column-gap: 2rem;
