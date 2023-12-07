@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;   /*10px = 1rem*/
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+body {
+    margin: 0 3rem;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    column-gap: 2rem;
+}
+
+img {
+    height: 35rem;
+    width: 80%;
+}
+/* HEADER o ENCABEZADO */
+
+header {
+    background-color: blue;
+
+}
+
+header p{
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0;
+    /* top | right | bottom | left */
+    padding: 1rem 0 1rem 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.datos_personales h3 {
+    font-size: 1.7rem;
+    margin-top: 0;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.experiencia {
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+    border-bottom: 1px solid black;
+}
+
+.experiencia h2 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.exp_one {
+    margin-top: 2rem;
+}
+
+.exp_one h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: .1rem;
+}
+
+.exp_one .compañia {
+    margin-top: 0;
+}
+
+.exp_one p{
+    font-size: 1.2rem;
+}
+
+
+.skills {
+    margin-top: 4rem;
+}
+
+.skills h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.skills_orden {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special {
+    display: flex;
+    align-items: center;
+}
